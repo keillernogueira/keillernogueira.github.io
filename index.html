@@ -122,7 +122,7 @@
 				<div class="pub-links">
 					<a href="https://arxiv.org/abs/2603.00604" target="_blank" class="pub-link">Paper</a>
 					<a href="https://github.com/keillernogueira/label_noise_segmentation" target="_blank" class="pub-link">Code</a>
-					<a href="https://zenodo.org/records/19193343" target="_blank" class="pub-link">Dataset</a>
+					<a href="https://zenodo.org/records/19193343" target="_blank" class="pub-link">Clean-Noisy Aerial Building Segmentation Dataset</a>
 				</div>
 			  </div>
 			</div>
@@ -404,7 +404,7 @@
 				<div class="pub-venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS), 2020</div>
 				<div class="pub-links">
 					<a href="https://ieeexplore.ieee.org/abstract/document/9238485/" target="_blank" class="pub-link">Paper</a>
-					<a href="https://patreo.dcc.ufmg.br/2020/07/22/multi-view-datasets/" target="_blank" class="pub-link">Dataset</a>
+					<a href="https://patreo.dcc.ufmg.br/2020/07/22/multi-view-datasets/" target="_blank" class="pub-link">AiRound and CV-BrCT Datasets</a>
 				</div>
 			  </div>
 			</div>
@@ -430,7 +430,7 @@
 				<div class="pub-links">
 					<a href="https://www.mdpi.com/2072-4292/12/4/739" target="_blank" class="pub-link">Paper</a>
 					<a href="https://github.com/Gabriellm2003/Deep-Learning-ArcGIS-Plugin" target="_blank" class="pub-link">Code</a>
-					<a href="https://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Dataset</a>
+					<a href="https://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Bridge Dataset</a>
 				</div>
 			  </div>
 			</div>
@@ -490,7 +490,7 @@
 				<div class="pub-links">
 					<a href="https://ieeexplore.ieee.org/abstract/document/8876942/" target="_blank" class="pub-link">Paper</a>
 					<a href="https://github.com/Gabriellm2003/Deep-Learning-ArcGIS-Plugin" target="_blank" class="pub-link">Code</a>
-					<a href="http://www.patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Dataset</a>
+					<a href="http://www.patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Bridge Dataset</a>
 				</div>
 			  </div>
 			</div>
@@ -756,11 +756,13 @@
               to reduce the annotation burden for operational Earth observation pipelines.
             </div>
             <div class="conf-tags">
-            	<span class="conf-tag"><a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="pub-link">CVPR'15</a></span>
+            	<span class="conf-tag">CVPR'15</span>
+            	<a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="pub-link">CVPR'15</a>
               <span class="conf-tag">Pattern Recognition'17</span>
               <span class="conf-tag">IEEE TGRS'19</span>
               <span class="conf-tag">IEEE Access'22</span>
               <span class="conf-tag">IEEE GRSM'25</span>
+              <span class="conf-tag"><a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="pub-link">IEEE GRSM'25</a></span>
             </div>
           </div>
         </div>
@@ -871,24 +873,18 @@
 
     <!-- DATASET PAGE -->
     <div class="page" id="page-datasets">
-      <h1 class="page-title">Dataset</h1>
+      <h1 class="page-title">Datasets</h1>
       <div class="research-grid">
         <div class="research-item">
           <div class="research-visual">🛰️</div>
           <div class="research-content">
-            <div class="research-title">Remote Sensing &amp; Earth Observation</div>
+            <div class="research-title">Clean-Noisy Aerial Building Segmentation Dataset</div>
             <div class="research-desc">
-              I develop deep learning methods for large-scale semantic segmentation, scene classification,
-              land cover mapping, change detection, and more in satellite and aerial imagery.
-              A key focus is building models that generalise across geographic regions and sensor types as well as
-              to reduce the annotation burden for operational Earth observation pipelines.
+              This dataset, introduced in the <a href="https://www.codabench.org/competitions/10453/" target="_blank" class="pub-link">MVEO 2024 Challenge</a>, is built upon the high-resolution <a href="https://ieeexplore.ieee.org/document/9857340" target="_blank" class="pub-link">SpaceNet8 dataset</a>, which consists of RGB satellite imagery acquired by the WorldView-3 sensor over regions in East Louisiana (USA) and Germany, with spatial resolutions ranging from 0.3 m to 0.8 m per pixel. However, rather than using the full set of images and classes, this dataset is restricted to pre-flood imagery and includes only building-related classes, framing the problem as a binary semantic segmentation task (building vs background). The related original images are divided into 256x256 pixel patches. From these, 5,000 samples are randomly selected for training, while the remaining 1,298 samples are allocated for validation and testing. To simulate realistic annotation imperfections, synthetic label noise is introduced into the training segmentation masks after patch extraction. These perturbations aim to reflect common sources of annotation errors in real-world remote sensing datasets. Observe that: (i) no noise is introduced into the validation/testing images, and (ii) the clean and noisy training data is available.
             </div>
             <div class="conf-tags">
             	<span class="conf-tag">CVPR'15</span>
-              <span class="conf-tag">Pattern Recognition'17</span>
-              <span class="conf-tag">IEEE TGRS'19</span>
-              <span class="conf-tag">IEEE Access'22</span>
-              <span class="conf-tag">IEEE GRSM'25</span>
+            	<a href="https://zenodo.org/records/19193343" target="_blank" class="pub-link">Download</a>
             </div>
           </div>
         </div>
@@ -896,16 +892,13 @@
         <div class="research-item">
           <div class="research-visual">🧠</div>
           <div class="research-content">
-            <div class="research-title">Data-centric Machine Learning &amp; Data-Efficient Learning</div>
+            <div class="research-title">AiRound and CV-BrCT Datasets</div>
             <div class="research-desc">
-              Pixel-level annotations for remote sensing are expensive and scarce.
-              My work explores data-centric and efficient techniques such as core-set selection
-              and label refinement to train high-performing segmentation models with less supervision.
+							Multi-view datasets in which each sample is composed of multiple images, typically including both aerial and ground perspectives. The datasets cover a range of classes, such as airport, bridge, church, forest, lake, river, skyscraper, stadium, statue, tower, and urban park.
             </div>
             <div class="conf-tags">
               <span class="conf-tag">IEEE GRSM'24</span>
-              <span class="conf-tag">Access'25</span>
-              <span class="conf-tag">arXiv'26</span>
+              <a href="https://patreo.dcc.ufmg.br/2020/07/22/multi-view-datasets/" target="_blank" class="pub-link">Download</a>
             </div>
           </div>
         </div>
@@ -913,14 +906,13 @@
         <div class="research-item">
           <div class="research-visual">🔓</div>
           <div class="research-content">
-            <div class="research-title">Scalable Open World Recognition &amp; Novel Class Discovery</div>
+            <div class="research-title">Bridge Dataset</div>
             <div class="research-desc">
-              Real-world imagery contains classes unseen during training. I develop
-              open set semantic segmentation methods that leverage feature-space analysis to identify and reject unknown classes rather than forcing predictions into a fixed closed set.
+              This dataset is composed of 500 images each containing at least one bridge. It has samples collected from different regions around the world, which increases its diversity and representativeness due to the varying image and bridge properties, such as the orientation of the construction, landscape context (river or mountain), area (urban or countryside), etc. All images have 4,800x2,843 pixels and were manually annotated by specialists.
             </div>
+            <span><a href="https://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Download</a></span>
             <div class="conf-tags">
               <span class="conf-tag">LAGIRS'20</span>
-              <span class="conf-tag">Machine Learning'23</span>
             </div>
           </div>
         </div>
@@ -928,12 +920,11 @@
         <div class="research-item">
           <div class="research-visual">🌐</div>
           <div class="research-content">
-            <div class="research-title">3D Point Cloud Understading</div>
+            <div class="research-title">Brazilian Coffee Scenes Dataset</div>
             <div class="research-desc">
-              I apply deep learning to agricultural monitoring tasks including coffee crop recognition,
-              citrus orchard segmentation, tree canopy detection in urban environments,
-              and vegetation species discrimination using multispectral UAV and satellite imagery.
+              This dataset is a composition of scenes taken by SPOT sensor in 2005 over four counties in the State of Minas Gerais, Brazil: Arceburgo, Guaranesia, Guaxupé and Monte Santo. It has many intraclass variance caused by different crop management techniques. Also, coffee is an evergreen culture and the South of Minas Gerais is a mountainous region, which means that this dataset includes scenes with different plant ages and/or with spectral distortions caused by shadows.
             </div>
+            <a href="https://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/" target="_blank" class="pub-link">Download</a>
             <div class="conf-tags">
               <span class="conf-tag">CIARP'15</span>
               <span class="conf-tag">PRRS'16</span>
@@ -946,12 +937,11 @@
         <div class="research-item">
           <div class="research-visual">🌿</div>
           <div class="research-content">
-            <div class="research-title">Precision Agriculture &amp; Vegetation Analysis</div>
+            <div class="research-title">Fashion (Pose and Chictopia) Datasets</div>
             <div class="research-desc">
-              I apply deep learning to agricultural monitoring tasks including coffee crop recognition,
-              citrus orchard segmentation, tree canopy detection in urban environments,
-              and vegetation species discrimination using multispectral UAV and satellite imagery.
+              Composed of images and associated tags/comments crawled from two fashion-related social networks, namely pose.com and chictopia.com. The pose.com dataset whas more than 3,000 images whereas the chictopia.com dataset has more than 2,000 images. Combining labels from both datasets leads us to a set of 31 discrete possibilities.
             </div>
+            <a href="https://drive.google.com/file/d/1OJeUTmGhvl5tev6SCZ4K7BgdJED9-jpv/view?usp=sharing" target="_blank" class="pub-link">Fashion Datasets</a>
             <div class="conf-tags">
               <span class="conf-tag">CIARP'15</span>
               <span class="conf-tag">PRRS'16</span>
