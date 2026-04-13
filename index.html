@@ -719,7 +719,7 @@
 		  <div class="pub-list">
 		  
 			<div class="pub-item">
-			  <div class="pub-thumb">☕</div>
+			  <div class="pub-thumb">👗</div>
 			  <div class="pub-info">
 				<div class="pub-title">Learning to annotate clothes in everyday photos: Multi-modal, multi-label, multi-instance approach</div>
 				<div class="pub-authors"><strong>K. Nogueira</strong>, A. A. Veloso, J. A. dos Santos</div>
@@ -735,7 +735,91 @@
 
     </div><!-- /page-publications -->
 
-    <!-- RESEARCH PAGE -->
+    <!------------------------------- DATASET PAGE ------------------------------->
+    <div class="page" id="page-datasets">
+      <h1 class="page-title">Datasets</h1>
+      <div class="research-grid">
+        <div class="research-item">
+          <div class="research-visual">🛰️</div>
+          <div class="research-content">
+            <div class="research-title">Clean-Noisy Aerial Building Segmentation Dataset</div>
+            <div class="research-desc">
+              This dataset, introduced in the <a href="https://www.codabench.org/competitions/10453/" target="_blank">MVEO 2024 Challenge</a>, is built upon the high-resolution <a href="https://ieeexplore.ieee.org/document/9857340" target="_blank">SpaceNet8 dataset</a>. However, rather than using the full set of images and classes, this dataset is restricted to pre-flood imagery and includes only building-related classes, framing the problem as a binary semantic segmentation task (building vs background). The related original images are divided into 256x256 pixel patches. From these, 5,000 samples are randomly selected for training, while the remaining 1,298 samples are allocated for validation and testing. To simulate realistic annotation imperfections, synthetic label noise is introduced into the training segmentation masks after patch extraction. These perturbations aim to reflect common sources of annotation errors in real-world remote sensing datasets. Observe that: (i) no noise is introduced into the validation/testing images, and (ii) the clean and noisy training data is available.
+              <p><a href="https://zenodo.org/records/19193343" target="_blank" class="pub-link">Download</a></p>
+            </div>
+            <div class="conf-tags">
+            	<a href="https://arxiv.org/abs/2603.00604" target="_blank" class="conf-tag">arXiv'26</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🧠</div>
+          <div class="research-content">
+            <div class="research-title">AiRound and CV-BrCT Datasets</div>
+            <div class="research-desc">
+							Multi-view datasets in which each sample is composed of multiple images, typically including both aerial and ground perspectives. The datasets cover a range of classes, such as airport, bridge, church, forest, lake, river, skyscraper, stadium, statue, tower, and urban park.
+
+							<p><a href="https://patreo.dcc.ufmg.br/2020/07/22/multi-view-datasets/" target="_blank" class="pub-link">Download</a></p>
+            </div>
+            <div class="conf-tags">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9238485/" target="_blank" class="conf-tag">IEEE JSTARS'20</a>
+            	<a href="https://ieeexplore.ieee.org/abstract/document/9997535" target="_blank" class="conf-tag">IEEE Access'22</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🌉</div>
+          <div class="research-content">
+            <div class="research-title">Bridge Dataset</div>
+            <div class="research-desc">
+              This dataset is composed of 500 images each containing at least one bridge. It has samples collected from different regions around the world, which increases its diversity and representativeness due to the varying image and bridge properties, such as the orientation of the construction, landscape context (river or mountain), area (urban or countryside), etc. All images have 4,800x2,843 pixels and were manually annotated by specialists.
+
+              <p><a href="https://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Download</a></p>
+            </div>
+            <div class="conf-tags">
+            	<a href="https://ieeexplore.ieee.org/abstract/document/8876942/" target="_blank" class="conf-tag">WVC'19</a>
+              <a href="https://www.mdpi.com/2072-4292/12/4/739" target="_blank" class="conf-tag">Remote Sensing'20</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">☕</div>
+          <div class="research-content">
+            <div class="research-title">Brazilian Coffee Scenes Dataset</div>
+            <div class="research-desc">
+              This dataset is a composition of scenes taken by SPOT sensor in 2005 over four counties in the State of Minas Gerais, Brazil: Arceburgo, Guaranesia, Guaxupé and Monte Santo. It has many intraclass variance caused by different crop management techniques. Also, coffee is an evergreen culture and the South of Minas Gerais is a mountainous region, which means that this dataset includes scenes with different plant ages and/or with spectral distortions caused by shadows.
+
+            	<p><a href="https://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/" target="_blank" class="pub-link">Download</a></p>
+            </div>
+            <div class="conf-tags">
+            	<a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="conf-tag">CVPR'15</a>
+            	<a href="https://www.sciencedirect.com/science/article/pii/S0031320316301509" target="_blank" class="conf-tag">Pattern Recognition'17</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">👗</div>
+          <div class="research-content">
+            <div class="research-title">Fashion (Pose and Chictopia) Datasets</div>
+            <div class="research-desc">
+              Composed of images and associated tags/comments crawled from two fashion-related social networks, namely pose.com and chictopia.com. The pose.com dataset whas more than 3,000 images whereas the chictopia.com dataset has more than 2,000 images. Combining labels from both datasets leads us to a set of 31 discrete possibilities.
+
+              <p><a href="https://drive.google.com/file/d/1OJeUTmGhvl5tev6SCZ4K7BgdJED9-jpv/view?usp=sharing" target="_blank" class="pub-link">Download</a></p>
+            </div>
+            <div class="conf-tags">
+            	<a href="https://ieeexplore.ieee.org/abstract/document/6915325" target="_blank" class="conf-tag">SIBGRAPI'14</a>
+            	<a href="https://link.springer.com/article/10.1007/s11042-015-3087-2" target="_blank" class="conf-tag">MTAP'16</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /dataset -->
+
+    <!------------------------------- RESEARCH PAGE ------------------------------->
     <div class="page" id="page-research">
       <h1 class="page-title">Research</h1>
       <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1.5rem;">
@@ -867,87 +951,6 @@
 
       </div>
     </div><!-- /page-research -->
-
-
-    <!------------------------------- DATASET PAGE ------------------------------->
-    <div class="page" id="page-datasets">
-      <h1 class="page-title">Datasets</h1>
-      <div class="research-grid">
-        <div class="research-item">
-          <div class="research-visual">🛰️</div>
-          <div class="research-content">
-            <div class="research-title">Clean-Noisy Aerial Building Segmentation Dataset</div>
-            <div class="research-desc">
-              This dataset, introduced in the <a href="https://www.codabench.org/competitions/10453/" target="_blank">MVEO 2024 Challenge</a>, is built upon the high-resolution <a href="https://ieeexplore.ieee.org/document/9857340" target="_blank">SpaceNet8 dataset</a>. However, rather than using the full set of images and classes, this dataset is restricted to pre-flood imagery and includes only building-related classes, framing the problem as a binary semantic segmentation task (building vs background). The related original images are divided into 256x256 pixel patches. From these, 5,000 samples are randomly selected for training, while the remaining 1,298 samples are allocated for validation and testing. To simulate realistic annotation imperfections, synthetic label noise is introduced into the training segmentation masks after patch extraction. These perturbations aim to reflect common sources of annotation errors in real-world remote sensing datasets. Observe that: (i) no noise is introduced into the validation/testing images, and (ii) the clean and noisy training data is available.
-              <p><a href="https://zenodo.org/records/19193343" target="_blank" class="pub-link">Download</a></p>
-            </div>
-            <div class="conf-tags">
-            	<a href="https://arxiv.org/abs/2603.00604" target="_blank" class="conf-tag">arXiv'26</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="research-item">
-          <div class="research-visual">🧠</div>
-          <div class="research-content">
-            <div class="research-title">AiRound and CV-BrCT Datasets</div>
-            <div class="research-desc">
-							Multi-view datasets in which each sample is composed of multiple images, typically including both aerial and ground perspectives. The datasets cover a range of classes, such as airport, bridge, church, forest, lake, river, skyscraper, stadium, statue, tower, and urban park.
-            </div>
-            <a href="https://patreo.dcc.ufmg.br/2020/07/22/multi-view-datasets/" target="_blank" class="pub-link">Download</a>
-            <div class="conf-tags">
-              <a href="https://ieeexplore.ieee.org/abstract/document/9238485/" target="_blank" class="conf-tag">IEEE JSTARS'20</a>
-            	<a href="https://ieeexplore.ieee.org/abstract/document/9997535" target="_blank" class="conf-tag">IEEE Access'22</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="research-item">
-          <div class="research-visual">🔓</div>
-          <div class="research-content">
-            <div class="research-title">Bridge Dataset</div>
-            <div class="research-desc">
-              This dataset is composed of 500 images each containing at least one bridge. It has samples collected from different regions around the world, which increases its diversity and representativeness due to the varying image and bridge properties, such as the orientation of the construction, landscape context (river or mountain), area (urban or countryside), etc. All images have 4,800x2,843 pixels and were manually annotated by specialists.
-            </div>
-            <span><a href="https://patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Download</a></span>
-            <div class="conf-tags">
-            	<a href="https://ieeexplore.ieee.org/abstract/document/8876942/" target="_blank" class="conf-tag">WVC'19</a>
-              <a href="https://www.mdpi.com/2072-4292/12/4/739" target="_blank" class="conf-tag">Remote Sensing'20</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="research-item">
-          <div class="research-visual">🌐</div>
-          <div class="research-content">
-            <div class="research-title">Brazilian Coffee Scenes Dataset</div>
-            <div class="research-desc">
-              This dataset is a composition of scenes taken by SPOT sensor in 2005 over four counties in the State of Minas Gerais, Brazil: Arceburgo, Guaranesia, Guaxupé and Monte Santo. It has many intraclass variance caused by different crop management techniques. Also, coffee is an evergreen culture and the South of Minas Gerais is a mountainous region, which means that this dataset includes scenes with different plant ages and/or with spectral distortions caused by shadows.
-            </div>
-            <p><a href="https://patreo.dcc.ufmg.br/2017/11/12/brazilian-coffee-scenes-dataset/" target="_blank" class="pub-link">Download</a></p>
-            <div class="conf-tags">
-            	<a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="conf-tag">CVPR'15</a>
-            	<a href="https://www.sciencedirect.com/science/article/pii/S0031320316301509" target="_blank" class="conf-tag">Pattern Recognition'17</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="research-item">
-          <div class="research-visual">🌿</div>
-          <div class="research-content">
-            <div class="research-title">Fashion (Pose and Chictopia) Datasets</div>
-            <div class="research-desc">
-              Composed of images and associated tags/comments crawled from two fashion-related social networks, namely pose.com and chictopia.com. The pose.com dataset whas more than 3,000 images whereas the chictopia.com dataset has more than 2,000 images. Combining labels from both datasets leads us to a set of 31 discrete possibilities.
-            </div>
-            <a href="https://drive.google.com/file/d/1OJeUTmGhvl5tev6SCZ4K7BgdJED9-jpv/view?usp=sharing" target="_blank" class="pub-link">Fashion Datasets</a>
-            <div class="conf-tags">
-            	<a href="https://ieeexplore.ieee.org/abstract/document/6915325" target="_blank" class="conf-tag">SIBGRAPI'14</a>
-            	<a href="https://link.springer.com/article/10.1007/s11042-015-3087-2" target="_blank" class="conf-tag">MTAP'16</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- /dataset -->
 
     <!-- POSITIONS PAGE -->
     <div class="page" id="page-positions">
