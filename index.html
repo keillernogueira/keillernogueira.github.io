@@ -24,6 +24,7 @@
   <div class="nav-links">
     <button class="active" id="nav-home" onclick="showPage('home')">Home</button>
     <button id="nav-publications" onclick="showPage('publications')">Publications</button>
+    <button id="nav-datasets" onclick="showPage('datasets')">Datasets</button>
     <button id="nav-research" onclick="showPage('research')">Research</button>
     <!-- <button id="nav-positions" onclick="showPage('positions')">Positions</button> -->
     <!-- <button id="nav-students" onclick="showPage('students')">Students</button> -->
@@ -116,7 +117,7 @@
 			  <div class="pub-thumb">🎯</div>
 			  <div class="pub-info">
 				<div class="pub-title">Data-Centric Benchmark for Label Noise Estimation and Ranking in Remote Sensing Image Segmentation</div>
-				<div class="pub-authors"><strong>K. Nogueira</strong>, CA. Diaconu, D. Kerekes, J. Gawlikowski, C. Léonard, N. A. A. Braham, J. M. Goo, Z. Zeng, Z. Liu, P. Jain, A. Nascetti, R. Hänsch</div>
+				<div class="pub-authors"><strong>K. Nogueira</strong>, C. A. Diaconu, D. Kerekes, J. Gawlikowski, C. Léonard, N. A. A. Braham, J. M. Goo, Z. Zeng, Z. Liu, P. Jain, A. Nascetti, R. Hänsch</div>
 				<div class="pub-venue">arXiv 2026</div>
 				<div class="pub-links">
 					<a href="https://arxiv.org/abs/2603.00604" target="_blank" class="pub-link">Paper</a>
@@ -486,9 +487,11 @@
 				<div class="pub-title">A tool for bridge detection in major infrastructure works using satellite images</div>
 				<div class="pub-authors"><strong>K. Nogueira</strong>, C. Cesar, P. H. T. Gama, G. L. S. Machado, J. A. dos Santos</div>
 				<div class="pub-venue">XV Workshop de Visão Computacional (WVC) 2019</div>
-				<div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/8876942/" target="_blank" class="pub-link">Paper</a></div>
-				<div class="pub-links"><a href="https://github.com/Gabriellm2003/Deep-Learning-ArcGIS-Plugin" target="_blank" class="pub-link">Code</a></div>
-				<div class="pub-links"><a href="http://www.patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Dataset</a></div>
+				<div class="pub-links">
+					<a href="https://ieeexplore.ieee.org/abstract/document/8876942/" target="_blank" class="pub-link">Paper</a>
+					<a href="https://github.com/Gabriellm2003/Deep-Learning-ArcGIS-Plugin" target="_blank" class="pub-link">Code</a>
+					<a href="http://www.patreo.dcc.ufmg.br/2019/07/10/bridge-dataset/" target="_blank" class="pub-link">Dataset</a>
+				</div>
 			  </div>
 			</div>
 		
@@ -737,7 +740,7 @@
       <h1 class="page-title">Research</h1>
       <p style="font-size:0.9rem;color:var(--muted);margin-bottom:1.5rem;">
         My research develops machine and deep learning methods for image understanding,
-        with a strong emphasis on real-world Earth observation applications where labelled data is scarce.
+        with a strong emphasis on real-world Earth observation applications.
       </p>
 
       <div class="research-grid">
@@ -748,39 +751,53 @@
             <div class="research-title">Remote Sensing &amp; Earth Observation</div>
             <div class="research-desc">
               I develop deep learning methods for large-scale semantic segmentation, scene classification,
-              land cover mapping, and change detection in satellite and aerial imagery.
-              A key focus is building models that generalise across geographic regions and sensor types,
-              reducing the annotation burden for operational Earth observation pipelines.
+              land cover mapping, change detection, and more in satellite and aerial imagery.
+              A key focus is building models that generalise across geographic regions and sensor types as well as
+              to reduce the annotation burden for operational Earth observation pipelines.
             </div>
             <div class="conf-tags">
+            	<span class="conf-tag"><a href="https://ieeexplore.ieee.org/abstract/document/6915325/" target="_blank" class="pub-link">CVPR'15</a></span>
               <span class="conf-tag">Pattern Recognition'17</span>
-              <span class="conf-tag">IEEE GRSL'18</span>
-              <span class="conf-tag">IEEE Access'21</span>
-              <span class="conf-tag">IJRS'25</span>
-              <span class="conf-tag">arXiv'25</span>
+              <span class="conf-tag">IEEE TGRS'19</span>
+              <span class="conf-tag">IEEE Access'22</span>
+              <span class="conf-tag">IEEE GRSM'25</span>
             </div>
           </div>
         </div>
 
         <div class="research-item">
-          <div class="research-visual">🏷️</div>
+          <div class="research-visual">🧠</div>
           <div class="research-content">
-            <div class="research-title">Weakly Supervised &amp; Data-Efficient Learning</div>
+            <div class="research-title">Data-centric Machine Learning &amp; Data-Efficient Learning</div>
             <div class="research-desc">
               Pixel-level annotations for remote sensing are expensive and scarce.
-              My work explores weakly supervised approaches — using image-level, point, or
-              low-resolution labels — and data-efficient techniques such as core-set selection
+              My work explores data-centric and efficient techniques such as core-set selection
               and label refinement to train high-performing segmentation models with less supervision.
             </div>
             <div class="conf-tags">
-              <span class="conf-tag">IJRS'25</span>
-              <span class="conf-tag">arXiv'25 Core-Set</span>
+              <span class="conf-tag">IEEE GRSM'24</span>
+              <span class="conf-tag">Access'25</span>
+              <span class="conf-tag">arXiv'26</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🔓</div>
+          <div class="research-content">
+            <div class="research-title">Scalable Open World Recognition &amp; Novel Class Discovery</div>
+            <div class="research-desc">
+              Real-world imagery contains classes unseen during training. I develop
+              open set semantic segmentation methods that leverage feature-space analysis to identify and reject unknown classes rather than forcing predictions into a fixed closed set.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">LAGIRS'20</span>
               <span class="conf-tag">Machine Learning'23</span>
             </div>
           </div>
         </div>
 
-        <div class="research-item">
+        <!-- <div class="research-item">
           <div class="research-visual">🔷</div>
           <div class="research-content">
             <div class="research-title">Deep Morphological Networks</div>
@@ -793,6 +810,22 @@
             <div class="conf-tags">
               <span class="conf-tag">IEEE Access'21</span>
               <span class="conf-tag">arXiv'19</span>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="research-item">
+          <div class="research-visual">🌐</div>
+          <div class="research-content">
+            <div class="research-title">Multi-modal Image Understading</div>
+            <div class="research-desc">
+              Real-world scene understanding requires integrating diverse sources of information. I develop methods that leverage multi-modal data - including satellite, drone, thermal, multispectral, hyperspectral, and 3D point cloud (LiDAR) imagery - to enable robust aerial and ground-level scene interpretation.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">IEEE JSTARS'20</span>
+              <span class="conf-tag">Precision Agriculture'21</span>
+              <span class="conf-tag">IEEE ACCESS'22</span>
+              <span class="conf-tag">CVPR'23</span>
             </div>
           </div>
         </div>
@@ -815,23 +848,7 @@
           </div>
         </div>
 
-        <div class="research-item">
-          <div class="research-visual">🔓</div>
-          <div class="research-content">
-            <div class="research-title">Open Set Recognition &amp; Segmentation</div>
-            <div class="research-desc">
-              Real-world imagery contains classes unseen during training. I develop
-              open set semantic segmentation methods — including OpenFCN and OpenPCS —
-              that leverage feature-space analysis to identify and reject unknown classes
-              rather than forcing predictions into a fixed closed set.
-            </div>
-            <div class="conf-tags">
-              <span class="conf-tag">Machine Learning'23</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="research-item">
+        <!--<div class="research-item">
           <div class="research-visual">📊</div>
           <div class="research-content">
             <div class="research-title">Incremental &amp; Small-Sample Learning</div>
@@ -846,10 +863,105 @@
               <span class="conf-tag">IEEE Access'23 (NS-IL)</span>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div><!-- /page-research -->
+
+
+    <!-- DATASET PAGE -->
+    <div class="page" id="page-datasets">
+      <h1 class="page-title">Dataset</h1>
+      <div class="research-grid">
+        <div class="research-item">
+          <div class="research-visual">🛰️</div>
+          <div class="research-content">
+            <div class="research-title">Remote Sensing &amp; Earth Observation</div>
+            <div class="research-desc">
+              I develop deep learning methods for large-scale semantic segmentation, scene classification,
+              land cover mapping, change detection, and more in satellite and aerial imagery.
+              A key focus is building models that generalise across geographic regions and sensor types as well as
+              to reduce the annotation burden for operational Earth observation pipelines.
+            </div>
+            <div class="conf-tags">
+            	<span class="conf-tag">CVPR'15</span>
+              <span class="conf-tag">Pattern Recognition'17</span>
+              <span class="conf-tag">IEEE TGRS'19</span>
+              <span class="conf-tag">IEEE Access'22</span>
+              <span class="conf-tag">IEEE GRSM'25</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🧠</div>
+          <div class="research-content">
+            <div class="research-title">Data-centric Machine Learning &amp; Data-Efficient Learning</div>
+            <div class="research-desc">
+              Pixel-level annotations for remote sensing are expensive and scarce.
+              My work explores data-centric and efficient techniques such as core-set selection
+              and label refinement to train high-performing segmentation models with less supervision.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">IEEE GRSM'24</span>
+              <span class="conf-tag">Access'25</span>
+              <span class="conf-tag">arXiv'26</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🔓</div>
+          <div class="research-content">
+            <div class="research-title">Scalable Open World Recognition &amp; Novel Class Discovery</div>
+            <div class="research-desc">
+              Real-world imagery contains classes unseen during training. I develop
+              open set semantic segmentation methods that leverage feature-space analysis to identify and reject unknown classes rather than forcing predictions into a fixed closed set.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">LAGIRS'20</span>
+              <span class="conf-tag">Machine Learning'23</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🌐</div>
+          <div class="research-content">
+            <div class="research-title">3D Point Cloud Understading</div>
+            <div class="research-desc">
+              I apply deep learning to agricultural monitoring tasks including coffee crop recognition,
+              citrus orchard segmentation, tree canopy detection in urban environments,
+              and vegetation species discrimination using multispectral UAV and satellite imagery.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">CIARP'15</span>
+              <span class="conf-tag">PRRS'16</span>
+              <span class="conf-tag">SIBGRAPI'17</span>
+              <span class="conf-tag">IGARSS'21</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="research-item">
+          <div class="research-visual">🌿</div>
+          <div class="research-content">
+            <div class="research-title">Precision Agriculture &amp; Vegetation Analysis</div>
+            <div class="research-desc">
+              I apply deep learning to agricultural monitoring tasks including coffee crop recognition,
+              citrus orchard segmentation, tree canopy detection in urban environments,
+              and vegetation species discrimination using multispectral UAV and satellite imagery.
+            </div>
+            <div class="conf-tags">
+              <span class="conf-tag">CIARP'15</span>
+              <span class="conf-tag">PRRS'16</span>
+              <span class="conf-tag">SIBGRAPI'17</span>
+              <span class="conf-tag">IGARSS'21</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /dataset -->
 
     <!-- POSITIONS PAGE -->
     <div class="page" id="page-positions">
